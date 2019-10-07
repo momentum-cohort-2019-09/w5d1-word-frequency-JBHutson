@@ -32,7 +32,7 @@ def print_word_freq(file):
         ast = ''
         for _ in range(ocur):
             ast = ast + '*'
-        print (f"{word} | {ocur} {ast}")
+        print (f"{word:>16} | {ocur} {ast}")
 
 
 if __name__ == "__main__":
