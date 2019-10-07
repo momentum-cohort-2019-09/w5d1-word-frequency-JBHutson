@@ -20,7 +20,7 @@ def print_word_freq(file):
             for word in split_line:
                 if word in STOP_WORDS:
                     continue
-                if word in word_count_dict.keys():
+                elif word in word_count_dict.keys():
                     word_count_dict[word] += 1
                 elif word not in word_count_dict.keys():
                     word_count_dict[word] = 1
